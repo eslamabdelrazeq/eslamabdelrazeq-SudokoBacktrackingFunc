@@ -9,7 +9,7 @@ namespace Sudoko.Backtracking
         static bool RunAlgorithm(int[,] gamePad, int row, int col, List<Func<int[,], int, int, bool>> preSolvingConditions)
         {
             int N = (int)Math.Sqrt(gamePad.Length);
-            var preConditionsNotMet = preSolvingConditions.Any(d => d.Invoke(gamePad,row, col) == false);
+            var preConditionsNotMet = preSolvingConditions.Any(d => d.Invoke(gamePad, row, col) == false);
             if (!preConditionsNotMet)
                 return true;
 
@@ -39,18 +39,18 @@ namespace Sudoko.Backtracking
         }
         static void print(int[,] gamePad)
         {
-            int N = (int)Math.Sqrt(gamePad.Length);
-            for (int i = 0; i < N; i++)
+            int size = (int)Math.Sqrt(gamePad.Length);
+            for (int i = 0; i < size; i++)
             {
-                for (int j = 0; j < N; j++)
+                for (int j = 0; j < size; j++)
                     Console.Write(gamePad[i, j] + " ");
                 Console.WriteLine();
             }
         }
         static bool IsGamePadEnded(int[,] gamePad, int row, int col)
         {
-            int N = (int)Math.Sqrt(gamePad.Length);
-            if (row == N - 1 && col == N)
+            int size = (int)Math.Sqrt(gamePad.Length);
+            if (row == size - 1 && col == size)
                 return true;
             return false;
         }
@@ -92,19 +92,17 @@ namespace Sudoko.Backtracking
                 .AssignBehavior(eb2)
                 .AssignBehavior(eb3);
 
+            int size = 9;
+            int[,] gamePad = new int[size, size];
             PreSolvingConditions
                 .Add(IsGamePadEnded);
-            int[,] gamePad = { { 3, 0, 6, 5, 0, 8, 4, 0, 0 },
-                   { 5, 2, 0, 0, 0, 0, 0, 0, 0 },
-                   { 0, 8, 7, 0, 0, 0, 0, 3, 1 },
-                   { 0, 0, 3, 0, 1, 0, 0, 8, 0 },
-                   { 9, 0, 0, 8, 6, 3, 0, 0, 5 },
-                   { 0, 5, 0, 0, 9, 0, 6, 0, 0 },
-                   { 1, 3, 0, 0, 0, 0, 2, 5, 0 },
-                   { 0, 0, 0, 0, 0, 0, 0, 7, 4 },
-                   { 0, 0, 5, 2, 0, 6, 3, 0, 0 } };
-
-
+            for (int x = 0; x < size; x++)
+            {
+                for (int y = 0; y < size; y++)
+                {
+                    gamePad[x, y] = 0;
+                }
+            }
             if (RunAlgorithm(gamePad, 0, 0, PreSolvingConditions))
                 print(gamePad);
             else
