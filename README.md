@@ -1,1 +1,1 @@
-# Sudoko Solver Using BackTracking Algorithm Functional Programming in C#
+# Sudoko Solver Using BackTracking Algorithm and Functional Programming in C#
