@@ -1,0 +1,13 @@
+C:\Users\Islam Abd Elrazek\Source\Repos\Sudoko.Backtracking\Sudoko.Backtracking\bin\Debug\netcoreapp3.1\Sudoko.Backtracking.exe
+C:\Users\Islam Abd Elrazek\Source\Repos\Sudoko.Backtracking\Sudoko.Backtracking\bin\Debug\netcoreapp3.1\Sudoko.Backtracking.deps.json
+C:\Users\Islam Abd Elrazek\Source\Repos\Sudoko.Backtracking\Sudoko.Backtracking\bin\Debug\netcoreapp3.1\Sudoko.Backtracking.runtimeconfig.json
+C:\Users\Islam Abd Elrazek\Source\Repos\Sudoko.Backtracking\Sudoko.Backtracking\bin\Debug\netcoreapp3.1\Sudoko.Backtracking.runtimeconfig.dev.json
+C:\Users\Islam Abd Elrazek\Source\Repos\Sudoko.Backtracking\Sudoko.Backtracking\bin\Debug\netcoreapp3.1\Sudoko.Backtracking.dll
+C:\Users\Islam Abd Elrazek\Source\Repos\Sudoko.Backtracking\Sudoko.Backtracking\bin\Debug\netcoreapp3.1\Sudoko.Backtracking.pdb
+C:\Users\Islam Abd Elrazek\Source\Repos\Sudoko.Backtracking\Sudoko.Backtracking\obj\Debug\netcoreapp3.1\Sudoko.Backtracking.csprojAssemblyReference.cache
+C:\Users\Islam Abd Elrazek\Source\Repos\Sudoko.Backtracking\Sudoko.Backtracking\obj\Debug\netcoreapp3.1\Sudoko.Backtracking.AssemblyInfoInputs.cache
+C:\Users\Islam Abd Elrazek\Source\Repos\Sudoko.Backtracking\Sudoko.Backtracking\obj\Debug\netcoreapp3.1\Sudoko.Backtracking.AssemblyInfo.cs
+C:\Users\Islam Abd Elrazek\Source\Repos\Sudoko.Backtracking\Sudoko.Backtracking\obj\Debug\netcoreapp3.1\Sudoko.Backtracking.csproj.CoreCompileInputs.cache
+C:\Users\Islam Abd Elrazek\Source\Repos\Sudoko.Backtracking\Sudoko.Backtracking\obj\Debug\netcoreapp3.1\Sudoko.Backtracking.dll
+C:\Users\Islam Abd Elrazek\Source\Repos\Sudoko.Backtracking\Sudoko.Backtracking\obj\Debug\netcoreapp3.1\Sudoko.Backtracking.pdb
+C:\Users\Islam Abd Elrazek\Source\Repos\Sudoko.Backtracking\Sudoko.Backtracking\obj\Debug\netcoreapp3.1\Sudoko.Backtracking.genruntimeconfig.cache
